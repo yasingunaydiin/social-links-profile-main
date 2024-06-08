@@ -19,7 +19,7 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 
 ### Links
 
-- Solution URL: https://yasingunaydiin.github.io/blog-preview-card-main/
+- Solution URL: https://yasingunaydiin.github.io/social-links-profile-main/
 
 
 ## Author
