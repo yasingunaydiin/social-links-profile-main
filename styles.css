@@ -1,0 +1,92 @@
+.attribution { font-size: 11px; text-align: center; color: white; margin-top: 10px;}
+.attribution a { color: hsl(0, 0%, 100%); text-decoration: none;}
+
+* {
+  
+  background-color: hsl(0, 0%, 12%);
+  font-family: "Inter";
+}
+
+h1 {
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+}
+
+h1.username {
+    font-size: 1.5rem;
+}
+
+h1.userlocation {
+    color: hsl(75, 94%, 57%);
+    font-size: 1rem;
+    margin-top: -10px;
+}
+
+p.userdescription { 
+    color: hsl(0, 0%, 100%) ;
+    font-weight: 600;
+    margin-top: 30px;
+    font-weight: 400;
+
+}
+
+.card {
+    width: 380px;
+    padding: 30px;
+    text-align: center;
+    border-radius: 12px;
+    
+}
+
+body {
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+    height: 100vh;
+    background-color: hsl(0, 0%, 8%);  
+}
+
+img {
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons a {
+    text-decoration: none;
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    padding: 15px;
+    border-radius: 12px;
+    margin: 10px;
+    font-weight: 600;
+}
+
+.buttons a:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 1.5rem; /* Adjust the value as needed */
+    }
+    p {
+        font-size: 1rem; /* Adjust the value as needed */
+    }
+    .card {
+        max-width: 20rem;
+        max-height: 35rem;
+    }
+    
+    img.userpicture  {
+        max-width: 17rem;
+    }
+   
+}
